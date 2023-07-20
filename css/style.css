@@ -342,9 +342,9 @@ body {
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 998px) {
   html{
-    font-size: 55%;
+    font-size: 62.5%;
   }
   #content {
     width: 100%;
@@ -352,19 +352,17 @@ body {
   }
   #content .container {
     display: flex;
-    margin: 0rem 3rem;
+    margin: 0rem 5rem;
   }
-  /* -------------------------------- */
   #content .text{
-    margin-left: 14rem;
+    margin-left: 15rem;
   }
   #content .container .menu ul span {
-    margin-left: 5rem;
+    margin-left: 8rem;
   }
   #content .text .heading{
     font-size: 5rem;
   }
-  /* ------------------------------- */
   #content .topics{
     margin-right: 5rem;
   }
@@ -374,7 +372,7 @@ body {
   #content .topic-content{
     margin: 0rem 2rem;
   }
-} 
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
